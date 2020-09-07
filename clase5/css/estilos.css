@@ -3,7 +3,7 @@ body{
     color: #555;
     font-family: helvetica;
     font-size: 1em;
-    width: 900px;
+    width: 1100px;
     margin: auto;
 }
 h1{
@@ -19,3 +19,11 @@ button{
     background-color: #666;
     margin-top: 25px;
 }
+#galeria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+    #galeria article{
+        margin-top: 30px;
+    }
